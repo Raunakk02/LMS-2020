@@ -1,0 +1,93 @@
+/**************************************   BASIC CSS   *********************************************/
+*{
+    margin: 0;
+}
+
+#div1{
+    background: rgba(32, 136, 233, 0.822);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    color: white;
+    line-height: 400%;
+}
+
+.nav-buttons ul{
+    background: rgb(75, 72, 72);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    line-height: 200%;
+    font-family: sans-serif;
+}
+.nav-buttons ul li{
+    float: left;
+}
+.nav-buttons ul li a{
+    display: block;
+    color: white;
+    text-align: center ;
+    text-decoration: none;
+    padding: 8px;
+}
+.nav-buttons ul li a:hover{
+    background: gray;
+}
+.active {
+    background-color: #4CAF50;
+}
+footer{
+    background: rgba(32, 136, 233, 0.822);
+}
+
+                    /*************************body****************************/
+                    .left-panel{
+                        width: 223px;
+                        padding: 4px;
+                        background: rgb(119, 122, 124);
+                        font-family: sans-serif;
+                    }
+                    
+                    .left-panel ul{
+                        position: relative;
+                        list-style-type: none;
+                        padding: 2%;
+                    }
+                    
+                    .left-panel ul li{
+                        margin: 10% auto;
+                    }
+                    
+                    .left-panel ul li a{
+                        color: rgba(6, 248, 26, 0.932);
+                        text-decoration: none;
+                        padding: 2px;
+                        display: block;
+                    }
+                    .left-panel ul li a:hover{
+                        background: rgb(48, 43, 43);
+                    }
+                    
+                    .right-panel{
+                        padding: 2%;
+                        /*background:red;*/
+                        flex-grow: 1;
+                        height: 600px;
+                    }
+                    .flex-container1{
+                        display: flex;
+                        flex-direction: row;
+                    }
+                    .right-panel p{
+                        position: relative;
+                        margin: auto 10%;
+                        text-align: center;
+                    }
+/**************************************   BASIC CSS   *********************************************/
+/*################################################################################################*/
+
+
+/**********************************  PAGE SPECIFIC CSS  ****************************************/
+
+
+/**********************************  PAGE SPECIFIC CSS  ****************************************/
